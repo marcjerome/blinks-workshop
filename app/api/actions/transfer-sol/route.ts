@@ -3,10 +3,10 @@ import { transferSolTransaction } from "./transaction";
 
 export const GET = async (req: Request) => {
     const payload: ActionGetResponse = {
-        title: "SuperteamPHL 🇵🇭 Transfer SOL BLINK",
-        icon: "https://i.imgur.com/wKY2gEc.jpeg",
-        description: "Transfer SOL to another wallet",
-        label: "Give 1 SOL 🤙🏻🤙🏻🤙🏻"
+        title: "SuperteamPHL 🇵🇭 Get Access Code",
+        icon: "https://i.imgur.com/BJb7Lgv.png",
+        description: "Get Access Code directly to your Wallet",
+        label: "Get Access Code"
     }
 
     return Response.json(payload, {
